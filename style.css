@@ -120,11 +120,13 @@ header {
 
 .fa-bars {
     margin-right: 10px;
+    transition: all 200ms;
 }
 
 .fa-bars:hover {
     cursor: pointer;
     opacity: 0.8;
+    transform: scale(1.1);
 }
 
 .right-header {
